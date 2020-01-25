@@ -1,0 +1,87 @@
+#RedButton {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  border-radius: 8px;
+}
+  #OrangeButton {
+  display: none;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  border-radius: 8px;
+}
+#yellowButton {
+  display: none;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 8px;
+}
+#version {
+  text-align: center;
+}
+#Upg {
+  display: inline-block;
+  border: solid grey;
+  vertical-align: top;
+  width: 250px;
+  height: 300px;
+  overflow: auto;
+}
+#Shop {
+  display: inline-block;
+  border: solid grey;
+  vertical-align: top;
+  width: 250px;
+  height: 300px;
+  overflow: auto;
+}
+#Func {
+  display: inline-block;
+  border: solid grey;
+  vertical-align: top;
+  width: 250px;
+  height: 300px;
+  overflow: auto;
+}
+#RedMult {
+  color: red;
+  display: inline-block;
+}
+#OrangeMult {
+  color: orange;
+  display: none;
+}
+#TotalMult {
+  color: grey;
+  display: inline-block;
+}  
+.xButton {
+  background-color: red;
+  float: left;
+  display: none;
+}
+#MultiButton {
+  display: inline-block;
+}
+.ShopName {
+  text-align: center
+}
+#OptionsMenu {
+  position: fixed;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.651);
+  color: grey;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+#exitOptionsMenu {
+  display: block;
+}

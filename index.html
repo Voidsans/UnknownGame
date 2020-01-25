@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Unknown Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <h3 id="TotalMult">1</h3>
+      <h3 id="RedMult">1</h3>
+      <h3 id="OrangeMult">1</h3>
+      <h3 id="yellowMult">1</h3>
+    </div>
+    <div>
+      <button onclick="redClick()" id="RedButton">click();</button>
+      <button id="OrangeButton" onclick="orangeClick()">multiply();</button>
+      <button id="yellowButton">duplicate();</button>
+    </div>
+    <h1 id="ClickNum">0 clicks</h1>
+    <div id="Shop">
+      <h2 class="ShopName">The Shop</h2>
+      <button onclick="buyAutoClicker()">Auto Clickers</button>
+      <h4 id="AutoClickInfo">Clicks 1 time per second/autoclicker</h4>
+      <h4 id="AutoClickCost">Costs 10c</h4>
+      <h4 id="AutoClickBought">You've bought 0</h4>
+      <button onclick="buyRedMultBot()">Red Multiplier Bot</button>
+      <h4 id="RedMultBotCost">Costs 250c</h4>
+      <h4 id="RedMultBotNum">You've bought 0</h4>
+    </div>
+    <div id="Upg">
+      <h2 class="ShopName">Upgrades</h2>
+      <button id="AutoClickUpg" onclick="buyAutoClickUpg()">Auto Clicker Version 2</button>
+      <h4 id="AutoClickUpgCost">Costs 100c</h4>
+      <h4 id="AutoClickUpgInfo">Changes autoclicker speed to 2/sec</h4>
+    </div>
+    <div id="Func">
+      <h2 class="ShopName">Functions</h2>
+      <button id="MultiButton" onclick="buyMultiplyButton()">multiply(); button</button>
+      <button class="xButton" onclick="xOutMultiButton()" id="exitOutMultiButton">X</button>
+      <h4 id="MultButtonCost">Costs 1000c</h4>
+      <h4 id="MultButtonUnlock">Unlocks multiply(); button</h4>
+    </div>
+    <div>
+      <h5 id="version">v1.1.6</h5>
+      <button onclick="optionsMenu('open')">Options</button>
+    </div>
+    <div id="OptionsMenu">
+      <h1>Statistics</h1>
+      <h2 id="TotalClicks">Total Clicks: 0</h2>
+      <button class="xButton" onclick="optionsMenu('close')" id="exitOptionsMenu">X</button>
+    </div>
+  </body>
+</html>
