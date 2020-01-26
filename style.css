@@ -7,14 +7,14 @@
   display: inline-block;
   border-radius: 8px;
 }
-  #OrangeButton {
+#OrangeButton {
   display: none;
   height: 100px;
   width: 100px;
   background-color: orange;
   border-radius: 8px;
 }
-#yellowButton {
+#YellowButton {
   display: none;
   height: 100px;
   width: 100px;
@@ -54,6 +54,10 @@
 }
 #OrangeMult {
   color: orange;
+  display: none;
+}
+#YellowMult {
+  color: yellow;
   display: none;
 }
 #TotalMult {

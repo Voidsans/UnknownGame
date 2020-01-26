@@ -9,12 +9,12 @@
       <h3 id="TotalMult">1</h3>
       <h3 id="RedMult">1</h3>
       <h3 id="OrangeMult">1</h3>
-      <h3 id="yellowMult">1</h3>
+      <h3 id="YellowMult">1</h3>
     </div>
     <div>
-      <button onclick="redClick()" id="RedButton">click();</button>
-      <button id="OrangeButton" onclick="orangeClick()">multiply();</button>
-      <button id="yellowButton">duplicate();</button>
+      <button id="RedButton" onclick="redClick()">click()</button>
+      <button id="OrangeButton" onclick="orangeClick()">multiply()</button>
+      <button id="YellowButton" onclick="yellowClick()">duplicate()</button>
     </div>
     <h1 id="ClickNum">0 clicks</h1>
     <div id="Shop">
@@ -35,19 +35,23 @@
     </div>
     <div id="Func">
       <h2 class="ShopName">Functions</h2>
-      <button id="MultiButton" onclick="buyMultiplyButton()">multiply(); button</button>
-      <button class="xButton" onclick="xOutMultiButton()" id="exitOutMultiButton">X</button>
+      <button id="MultiButton" onclick="buyMultiplyButton()">multiply() button</button>
+      <button class="xButton" onclick="xOutMultiButton()" id="xOrangeBuy">X</button>
       <h4 id="MultButtonCost">Costs 1000c</h4>
-      <h4 id="MultButtonUnlock">Unlocks multiply(); button</h4>
+      <h4 id="MultButtonUnlock">Unlocks multiply() button</h4>
+      <button id="DupeButton" onclick="buyDupeButton()">duplicate() button</button>
+      <button class="xButton" onclick="xOutDupeButton()" id="xYellowBuy">X</button>
+      <h4 id="DupeButtonCost">Costs 10000c</h4>
+      <h4 id="DupeButtonUnlock">Unlocks dupe()</h4>
     </div>
     <div>
-      <h5 id="version">v1.1.6</h5>
-      <button onclick="optionsMenu('open')">Options</button>
+      <h5 id="version">v1.0.0</h5>
+      <button onclick="optionsMenu(1)">Options</button>
     </div>
     <div id="OptionsMenu">
       <h1>Statistics</h1>
       <h2 id="TotalClicks">Total Clicks: 0</h2>
-      <button class="xButton" onclick="optionsMenu('close')" id="exitOptionsMenu">X</button>
+      <button class="xButton" onclick="optionsMenu(0)" id="exitOptionsMenu">X</button>
     </div>
   </body>
 </html>
